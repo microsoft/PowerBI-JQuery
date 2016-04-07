@@ -1,0 +1,36 @@
+{
+  "name": "jquery-powerbi",
+  "version": "1.0.0",
+  "description": "PowerBi plugin for jQuery.",
+  "main": "dist/jquery.powerbi.js",
+  "typings": "dist/jquery.powerbi.d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Microsoft",
+    "PowerBi",
+    "jQuery"
+  ],
+  "author": "Microsoft PowerBi Team",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1",
+    "gulp-typescript": "^2.12.2",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.25",
+    "merge2": "^1.0.2",
+    "phantomjs-prebuilt": "^2.1.7",
+    "yargs": "^4.4.0"
+  },
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "powerbi-client": "^1.0.12"
+  }
+}

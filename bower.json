@@ -1,0 +1,23 @@
+{
+  "name": "jquery-powerbi",
+  "description": "PowerBi plugin for jQuery.",
+  "main": "dist/jquery.powerbi.js",
+  "authors": [
+    "Microsoft PowerBi Team"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Microsoft",
+    "PowerBi",
+    "jQuery"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
