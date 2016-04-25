@@ -1,13 +1,15 @@
-(function (global, $) {
+"use strict";
+(function ($) {
     if (!$) {
         throw new Error("Cannot create PowerBi jQuery plugin. jQuery was not loaded.");
     }
-    if (!global.powerbi) {
+    if (!powerbi) {
         throw new Error("Cannont create PowerBi jQuery plugin. powerbi was not loaded.");
     }
     var plugin = function (options) {
-        var element = this.get(0);
-        global.powerbi.embed(element, options);
+        var $element = this;
+        var element = $element.get(0);
+        powerbi.embed(element, options);
         return this;
     };
     // TODO: Calling $().powerbi.embed() is more semantic than $().powerbi() however;
@@ -16,4 +18,4 @@
     // since we can't access the jQuery object from it.
     //(<any>plugin).embed = plugin;
     $.fn.powerbi = plugin;
-})(this, this.jQuery);
+})(this.jQuery);

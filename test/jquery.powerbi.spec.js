@@ -12,10 +12,6 @@
             $fixture.remove();
         });
 
-        afterEach(function () {
-            $fixture.empty();
-        });
-
         it('calling .powerbi on a jQuery object calls the internal powerbi.embed using the element from the jquery object', function () {
             // Arrange
             var powerbiServiceMock = jasmine.createSpyObj('powerbiServiceMock', ['embed']);
@@ -57,6 +53,7 @@
         it('calling .powerbi returns the jQuery object to allow chaining', function () {
             // Arrange
             var embedConfiguration = {
+                id: '123',
                 type: 'report',
                 accessToken: 'fakeToken',
                 embedUrl: 'https://embed.powerbi.com/embed?reportId=123'

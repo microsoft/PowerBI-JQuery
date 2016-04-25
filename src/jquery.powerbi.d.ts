@@ -1,3 +1,5 @@
+import * as pbi from 'powerbi-client';
+
 interface JQuery {
-    powerbi(config: any): JQuery;
+    powerbi(options: pbi.IEmbedOptions): JQuery;
 }

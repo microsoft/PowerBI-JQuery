@@ -12,7 +12,7 @@ gulp.task('copy', 'Copy .d.ts file to dist', function () {
 
 gulp.task('compile', 'Compile typescript', ['copy'], function () {
     var tsProject = ts.createProject('tsconfig.json');
-    var tsResult = gulp.src('src/**/*.ts')
+    var tsResult = tsProject.src()
         .pipe(ts(tsProject));
 
     return tsResult.js
