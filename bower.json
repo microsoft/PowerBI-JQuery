@@ -19,5 +19,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "powerbi-client": "2.0.0-beta.2"
+  }
 }

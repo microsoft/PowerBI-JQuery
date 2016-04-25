@@ -5,6 +5,7 @@
         "sourceMap": true
     },
     "exclude": [
+        "bower_components",
         "node_modules",
         "typings/main",
         "typings/main.d.ts",
