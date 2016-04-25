@@ -23,7 +23,7 @@
             window.powerbi = powerbiServiceMock;
             
             var embedConfiguration = {
-                type: 'powerbi-report',
+                type: 'report',
                 accessToken: 'fakeToken',
                 embedUrl: 'https://embed.powerbi.com/embed?reportId=123'
             };
@@ -41,7 +41,7 @@
         it('calling .powerbi on a jQuery object with embed configuration embeds iframe within element', function () {
             // Arrange
             var embedConfiguration = {
-                type: 'powerbi-report',
+                type: 'report',
                 accessToken: 'fakeToken',
                 embedUrl: 'https://embed.powerbi.com/embed?reportId=123'
             };
@@ -57,7 +57,7 @@
         it('calling .powerbi returns the jQuery object to allow chaining', function () {
             // Arrange
             var embedConfiguration = {
-                type: 'powerbi-report',
+                type: 'report',
                 accessToken: 'fakeToken',
                 embedUrl: 'https://embed.powerbi.com/embed?reportId=123'
             };
@@ -68,6 +68,5 @@
             // Assert
             expect(returnValue).toBe($fixture);
         });
-        
     });
 } ());

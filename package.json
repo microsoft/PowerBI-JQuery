@@ -31,6 +31,6 @@
   },
   "dependencies": {
     "jquery": "^2.2.2",
-    "powerbi-client": "^1.0.12"
+    "powerbi-client": "^2.0.0-beta.2"
   }
 }
