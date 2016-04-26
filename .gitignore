@@ -2,3 +2,6 @@ bower_components/
 node_modules/
 coverage/
 typings/
+
+src/*.js
+test/*.js

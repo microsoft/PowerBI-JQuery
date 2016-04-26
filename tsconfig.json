@@ -6,6 +6,7 @@
     },
     "exclude": [
         "bower_components",
+        "coverage",
         "node_modules",
         "typings/main",
         "typings/main.d.ts",

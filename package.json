@@ -27,10 +27,11 @@
     "karma-spec-reporter": "0.0.25",
     "merge2": "^1.0.2",
     "phantomjs-prebuilt": "^2.1.7",
+    "run-sequence": "^1.1.5",
     "yargs": "^4.4.0"
   },
   "dependencies": {
     "jquery": "^2.2.2",
-    "powerbi-client": "2.0.0-beta.2"
+    "powerbi-client": "2.0.0-beta.4"
   }
 }
