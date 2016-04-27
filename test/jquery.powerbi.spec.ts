@@ -6,8 +6,7 @@ describe('jquery', function () {
     });
 
     afterAll(function () {
-        // TODO: Remove square bracket access when typing information is fixed. 
-        window.powerbi['reset']($fixture.get(0));
+        window.powerbi.reset($fixture.get(0));
     });
 
     it('calling .powerbi on a jQuery object calls the internal powerbi.embed using the element from the jquery object', function () {
